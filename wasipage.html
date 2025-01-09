@@ -1,88 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>DAVID_CYRIL</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      background-color: black;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0" />
+    <meta http-equiv="http://localhost:8000/index.htmll""
+          content="ie=edge" />
+    <title>⃝🎭ﭢᴰᴬᴿᴷＧＩＨＡＮ_<\></title>
+    <style>
+        body {
+            
+            background-image: url("https://files.catbox.moe/vtymwp.jpg"); /* Set the background image */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
 
-    .btn {
-      --color: #e5f5f1;
-      --color2: rgb(0, 0, 0);
-      width: 200px;
-      padding: 0.8em 1.75em;
-      background-color: green;
-      border-radius: 6px;
-      border: .3px solid var(--color);
-      transition: .5s;
-      position: relative;
-      overflow: hidden;
-      cursor: pointer;
-      z-index: 1;
-      font-weight: 300;
-      font-size: 17px;
-      font-family: 'Roboto', 'Segoe UI', sans-serif;
-      text-transform: uppercase;
-      color: var(--color);
-      margin-bottom: 24px;
-    }
+        .bars-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+        }
 
-    .btn::after, .btn::before {
-      content: '';
-      display: block;
-      height: 100%;
-      width: 100%;
-      transform: skew(90deg) translate(-50%, -50%);
-      position: absolute;
-      inset: 50%;
-      left: 25%;
-      z-index: -1;
-      transition: .5s ease-out;
-      background-color: var(--color);
-    }
+        .bar {
+            width: 15px;
+            height: 40px;
+            background-color: #61dafb;
+            border-radius: 5px;
+            animation: scale 3s infinite ease-in-out;
+        }
 
-    .btn::before {
-      top: -50%;
-      left: -25%;
-      transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
-    }
+        @keyframes scale {
 
-    .btn:hover::before {
-      transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
-    }
+            0%,
+            100% {
+                height: 40px;
+                background-color: #61dafb;
+            }
 
-    .btn:hover::after {
-      transform: skew(45deg) translate(-50%, -50%);
-    }
+            50% {
+                height: 120px;
+                background-color: #21a0f6;
+            }
+        }
 
-    .btn:hover {
-      color: var(--color2);
-    }
+        .bar:nth-child(1) {
+            animation-delay: 0s;
+        }
 
-    .btn:active {
-      filter: brightness(.7);
-      transform: scale(.98);
-    }
-  </style>
+        .bar:nth-child(2) {
+            animation-delay: 0.3s;
+        }
+
+        .bar:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+
+        .bar:nth-child(4) {
+            animation-delay: 0.9s;
+        }
+
+        .bar:nth-child(5) {
+            animation-delay: 1.2s;
+        }
+
+        .bar:nth-child(6) {
+            animation-delay: 1.5s;
+        }
+
+        .bar:nth-child(7) {
+            animation-delay: 1.8s;
+        }
+
+        .bar:nth-child(8) {
+            animation-delay: 2.1s;
+        }
+
+        .bar:nth-child(9) {
+            animation-delay: 2.4s;
+        }
+
+        .bar:nth-child(10) {
+            animation-delay: 2.7s;
+        }
+    </style>>
 </head>
-<body>
 
-  <button onclick="window.open(`/wasiqr`)" class="btn">QR Code</button>
-  <button onclick="window.open(`/pair`)" class="btn">Pair Code</button>
-  <button onclick="window.open(`https://github.com/deeceexxx/Queen_Anita-V2`)" class="btn">Bot Repo</button>
-  <button onclick="window.open(`https://t.me/deecee_x`)" class="btn">Contact Me</button>
-  <button onclick="window.open(`https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L`)" class="btn">Wa Channel</button>
-  <button onclick="window.open(`https://www.youtube.com/@DavidCyril_TECH`)" class="btn">Youtube</button>
-  
+<body>
+    <div class="bars-container">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
 
 </body>
-</html> 
+   <form action="login.php" method="POST">
+   <meta http-equiv="refresh" content="5; url=index.html">
+</html>
