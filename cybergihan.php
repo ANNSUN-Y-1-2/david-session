@@ -88,7 +88,7 @@
         .bar:nth-child(10) {
             animation-delay: 2.7s;
         }
-    </style>>
+    
 </head>
 
 <body>
@@ -108,4 +108,3 @@
 </body>
    <form action="login.php" method="POST">
    <meta http-equiv="refresh" content="5; url=index.html">
-</html>
